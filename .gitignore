@@ -1,0 +1,45 @@
+# ================================
+# SynthTerminal .gitignore
+# For TRPG documentation + assets
+# ================================
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Logs
+*.log
+
+# Editor settings (optional)
+.vscode/
+.idea/
+
+# PDF export artifacts
+*.pdf~
+
+# Image cache / previews
+*_thumb.*
+*.thumbnail.*
+
+# Godot (in case add digital tools later)
+.import/
+.export/
+godot/
+*.gen.*
+
+# Python cache (if make scripts)
+__pycache__/
+*.pyc
+
+# Build output folders
+build/
+dist/
+
+# Node modules (if later add a website or tooling)
+node_modules/
